@@ -34,6 +34,7 @@ public class ElasticSearchConfig {
 //				new HttpAsyncResponseConsumerFactory
 //						.HeapBufferedResponseConsumerFactory(30 * 1024 * 1024 * 1024));
 		COMMON_OPTIONS = builder.build();
+		System.out.println("dev");
 	}
 
 	@Bean
